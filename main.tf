@@ -9,7 +9,7 @@ module "terraform-landing-zone" {
   gh_org = "djschnei21"
   oauth_client_name = "github-test"
   vcs = true
-  tfe_project = true
+  projects = true
   app_ids = [
     "AAA",
     "BBB"
