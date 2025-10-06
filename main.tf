@@ -11,8 +11,8 @@ module "terraform-landing-zone" {
   vcs = true
   projects = true
   app_ids = [
-    "AAA",
-    "BBB"
+    # "AAA",
+    # "BBB"
   ]
   app_envs = [ "development", "test", "production" ]
 }
