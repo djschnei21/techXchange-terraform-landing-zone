@@ -1,6 +1,4 @@
-terraform {
-  
-}
+terraform {}
 
 module "terraform-landing-zone" {
   source  = "app.terraform.io/djs-tfcb/terraform-landing-zone/tfe"
@@ -11,8 +9,8 @@ module "terraform-landing-zone" {
   vcs = true
   projects = true
   app_ids = [
-    # "AAA",
-    # "BBB"
+    "AAA",
+    "BBB"
   ]
   app_envs = [ "development", "test", "production" ]
 }
