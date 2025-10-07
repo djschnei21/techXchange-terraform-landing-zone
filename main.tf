@@ -10,7 +10,6 @@ module "terraform-landing-zone" {
   projects = true
   app_ids = [
     "AAA",
-    "BBB"
   ]
   app_envs = [ "development", "test", "production" ]
 }
